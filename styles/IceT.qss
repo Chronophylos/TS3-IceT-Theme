@@ -1,6 +1,7 @@
 /* TS3 IceT Clan Theme by Sma$h and Chronophylos */
 
 
+
 /*
     Connection Info Panel
     Channel/Info Panel
@@ -681,6 +682,9 @@ QLabel#OptionsHeadlineTitleLabel {
     color: #bcbcbc;
     font-weight: bold;
 }
+
+
+
 
 /*
     ComboBox
