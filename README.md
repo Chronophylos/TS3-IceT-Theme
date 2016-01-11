@@ -20,13 +20,21 @@ Copyright 2015-2016 IceT-Clan.de (c)
 If you have TS3 installed, just run the `TS3-IceT-Theme.ts3_style`
 
 ##Screenshots
-![Main Window](https://i.imgur.com/egtEt2j.png)Main Window
+![Main Window](https://i.imgur.com/egtEt2j.png)
 
-![Dropdown Menu](https://i.imgur.com/LQkIbXY.png)Dropdown Menu
+Main Window
 
-![Poke Promt](https://i.imgur.com/Zn7ASHf.png)Poke Promt
+![Dropdown Menu](https://i.imgur.com/LQkIbXY.png)
 
-![QPromt](https://i.imgur.com/jqAvygT.png)Chat and Server Tabs when hovering, active and inactive
+Dropdown Menu
+
+![Poke Promt](https://i.imgur.com/Zn7ASHf.png)
+
+Poke Promt
+
+![QPromt](https://i.imgur.com/jqAvygT.png)
+
+Chat and Server Tabs when hovering, active and inactive
 
 ###Example for Sorting
 ```css
