@@ -6,7 +6,7 @@ Made By Sma$h
 
 Managed by Chronophylos
 
-Copyright 2015-2016 IceT-Clan.de (c)
+Copyright 2015-2016 IceT-Clan.de :copyright:
 
 ###Changelog:
 * Hotfix: 1.5.1
