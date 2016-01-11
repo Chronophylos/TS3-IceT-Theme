@@ -1,6 +1,6 @@
 #IceT Clan Theme
 
-##Version 1.5
+##Version 1.5.1
 
 Made By Sma$h
 
@@ -9,6 +9,8 @@ Managed by Chronophylos
 Copyright 2015-2016 IceT-Clan.de (c)
 
 ###Changelog:
+* Hotfix: 1.5.1
+  * fixed TS3 Auto Installer  
 * Version: 1.5
  * changed some colors and added a ts3 auto installer
 * Version: 1.1.3
