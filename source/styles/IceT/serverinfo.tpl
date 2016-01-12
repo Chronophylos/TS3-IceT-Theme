@@ -55,7 +55,7 @@ SERVER_REFRESH_ACTIVE
     padding: 0px 1px 0px 8px;
   }
   .active {
-    color: green;
+    color: #008000;
     text-decoration: underline;
   }
   .inactive {
@@ -63,7 +63,7 @@ SERVER_REFRESH_ACTIVE
     text-decoration: underline;
   }
   .red {
-    color: red;
+    color: #800000;
   }
 </style>
 

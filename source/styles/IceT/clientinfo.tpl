@@ -75,13 +75,13 @@ PLUGIN_INFO_DATA
     padding: 0px 1px 0px 8px;
   }
   .blue {
-    color: blue;
+    color: #000080;
   }
   .green {
-    color: green;
+    color: #008000;
   }
   .red {
-    color: red;
+    color: #800000;
   }
   .small {
     font-size: 7pt;
