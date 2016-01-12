@@ -1,6 +1,6 @@
 #IceT Clan Theme
 
-##Version 1.5.1
+##Version 1.6
 
 Made By Sma$h
 
@@ -9,6 +9,10 @@ Managed by Chronophylos
 Copyright 2015-2016 IceT-Clan.de :copyright:
 
 ###Changelog:
+* Version 1.6
+  * added channelinfo.tpl
+  * added clientinfo.tpl
+  * added serverinfo.tpl all from `default_extended` by [dante969](http://addons.teamspeak.com/directory/skins/stylesheets/Extended-Client-Info.html)
 * Hotfix: 1.5.1
   * fixed TS3 Auto Installer  
 * Version: 1.5
