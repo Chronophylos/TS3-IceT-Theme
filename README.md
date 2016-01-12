@@ -2,9 +2,7 @@
 
 ##Version 1.7
 
-Made By Sma$h
-
-Managed by Chronophylos
+Made By Sma$h and Chronophylos
 
 Copyright 2015-2016 IceT-Clan.de :copyright:
 
