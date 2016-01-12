@@ -60,7 +60,7 @@ QWidget#addPropertiesWidget,
 QWidget#OfflineMessagesDialog,
 QTextEdit {
     background: #00ff00;    /* Dark Grey */
-    border: 20px solid #bcbcbc;
+    border: 2px solid #bcbcbc;
 }
 
 /*
@@ -145,7 +145,7 @@ QPalette::LinkVisited {
 QTextEdit#ChatTab {
     border: 1px solid #6c6c6c;
     background: #121212;
-    /*image: url('styles/IceT/IceTclanimg.png');
+    /*image: url('IceT/IceTclanimg.png');
     background-repeat: none;
     image-position: bottom right;
     background-attachment: fixed;*/
@@ -1103,9 +1103,9 @@ QScrollBar::sub-line:vertical {
     ?
 */
 QScrollBar::up-arrow:vertical {
-    background: url("gfx/IceT/7x5_up_arrow.png");
+    background: url("styles/IceT/up_arrow.png");
     background-repeat: none;
-    left: 3px;
+    left: 4px;
     top: 5px;
 }
 
@@ -1113,9 +1113,9 @@ QScrollBar::up-arrow:vertical {
     ?
 */
 QScrollBar::down-arrow:vertical {
-    background: url("gfx/IceT/7x5_down_arrow.png");
+    background: url("styles/IceT/down_arrow.png");
     background-repeat: none;
-    left: 3px;
+    left: 4px;
     top: 5px;
 }
 
@@ -1168,20 +1168,20 @@ QScrollBar::sub-line:horizontal {
     ?
 */
 QScrollBar::left-arrow:horizontal {
-    background: url("styles/bluesky/left_arrow.png"); /* TODO: Change Directory */
+    background: url("styles/IceT/left_arrow.png");
     background-repeat: none;
     left: 5px;
-    top: 3px;
+    top: 4px;
 }
 
 /*
     ?
 */
 QScrollBar::right-arrow:horizontal {
-    background: url("styles/bluesky/right_arrow.png"); /* TODO: Change Directory */
+    background: url("styles/IceT/right_arrow.png");
     background-repeat: none;
     left: 5px;
-    top: 3px;
+    top: 4px;
 }
 
 /*
