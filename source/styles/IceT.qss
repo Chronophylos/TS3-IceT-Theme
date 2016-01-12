@@ -1,0 +1,1262 @@
+/* TS3 IceT Clan Theme by Sma$h and Chronophylos */
+
+
+
+/*
+    Connection Info Panel
+    Channel/Info Panel
+    Server Connection Info Panel
+    Server Query Panel
+    3D Sound Panel
+    3D Sound Test Panel
+    URL catcher
+*/
+QWidget#ConnectionInfoDialog,
+QWidget#MainWindowServerTabsWidget,
+QWidget#ServerConnectionInfoDialog,
+QWidget#ServerQueryView,
+QWidget#sound3Dwidget,
+QWidget#sound3DTestWidget,
+QWidget#UrlCatcherViewer {
+    background: #292929;
+    border: none;
+    color: #bcbcbc;
+    selection-background-color: #bcbcbc;
+    selection-color: #000;
+}
+
+/*
+    ?
+    ?
+    Emoticon Popup
+    Friends List
+    Bookmarks Manager
+    Ban Dialog
+    Client Log
+    ?
+    ?
+    Server Log
+    Volume Control Widget
+    ?
+    ?
+    ?
+    ?
+    Text Editor (e.g. Channel Description)
+*/
+TextBrowser,
+FileBrowser,
+EmoticonsDisplay,
+FriendFoeManager,
+BookmarksManager,
+QDialog#BanDialog,
+ClientLogView,
+HeadlineLabel,
+LogDisplay,
+ServerLogView,
+UserVolumeWidget,
+QAbstractItemView,
+QDialog,
+QWidget#addPropertiesWidget,
+QWidget#OfflineMessagesDialog,
+QTextEdit {
+    background: #00ff00;    /* Dark Grey */
+    border: 20px solid #bcbcbc;
+}
+
+/*
+    ?
+    ?
+    ?
+*/
+QStatusBar,
+QFrame,
+QMainWindow {
+
+    background: #292929; /* Light Blue */
+    border: none;
+    color: #bcbcbc;
+    selection-background-color: #bcbcbc;
+    selection-color: #000;
+}
+
+/*
+    Chat Panel
+*/
+QWidget#MainWindowChatWidget {
+    background: #292929;
+}
+
+/*
+    QWidget
+*/
+QWidget {
+    background: #292929;
+    color: #bcbcbc;
+}
+
+/*
+    Seperator between Mail and Info Window
+*/
+QWidget::pane {
+    border: 0px solid #000;
+}
+
+/*
+    Chat Input Panel
+*/
+ChatLineEdit {
+    border: 1px solid #6c6c6c;
+    border-radius: 4px;
+    border-radius: 3px;
+    background: #121212;
+    color: #bcbcbc;
+    background-image: url('styles/IceT/pagePattern.jpg');
+    selection-background-color: #000;
+    selection-color: #000;
+}
+
+/*
+    Info/Description Panel
+*/
+InfoFrame {
+    border: transparent;
+    border-radius: 1px;
+    background: #292929;
+    background-repeat: none;
+    background-attachment: fixed;
+    color: #bcbcbc;
+    selection-background-color: #bcbcbc;
+    selection-color: #000;
+    padding: 5px;
+
+}
+
+QPalette::Link {
+    color: #ffff00;
+}
+
+QPalette::LinkVisited {
+    color: #00ff00;
+}
+
+/*
+    Chat Log Panel
+*/
+QTextEdit#ChatTab {
+    border: 1px solid #6c6c6c;
+    background: #121212;
+    /*image: url('styles/IceT/IceTclanimg.png');
+    background-repeat: none;
+    image-position: bottom right;
+    background-attachment: fixed;*/
+    background-image: url('styles/IceT/pagePattern.jpg');
+    color: #bcbcbc;
+    selection-background-color: #bcbcbc;
+    selection-color: #000;
+    border: 1px solid #6c6c6c;
+    border-radius: 4px;
+}
+
+/*
+    Channel/User Panel
+    Notifications
+    App Scanner
+*/
+TreeView {
+    background: #292929;
+    color: #bcbcbc;
+    border: none;
+}
+
+/*
+    ?
+*/
+QTreeView {
+    background: #121212;
+    alternate-background-color: #121212;
+    border: 1px solid #6c6c6c;
+    border-radius: 4px;
+    padding: 2px;
+    background-image: url('styles/IceT/pagePattern.jpg');
+}
+
+/*
+    ?
+*/
+QTreeView::item {
+    background: transparent;
+    color: #bcbcbc;
+
+}
+
+/*
+    ?
+*/
+QTreeView::item:hover {
+
+
+
+}
+
+/*
+    ?
+*/
+QTreeView::item:selected:active{
+    color: #777;
+
+}
+
+/*
+    ?
+*/
+QTreeView::item:selected:!active {
+    color: #888;
+
+}
+
+/*
+    ?
+    ?
+    ?
+    ?
+    ?
+    ?
+    ?
+*/
+QTreeView::branch:has-siblings:!adjoins-item,
+QTreeView::branch:has-siblings:adjoins-item,
+QTreeView::branch:!has-children:!has-siblings:adjoins-item,
+QTreeView::branch:has-children:!has-siblings:closed,
+QTreeView::branch:closed:has-children:has-siblings,
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings {
+    color: #03a9c4;
+}
+
+/*
+    Table HEADER
+        File Browser - Detailed/List View
+        Options Window
+            Hotkeys
+            Messages
+*/
+QHeaderView::section {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    color: #bcbcbc;
+    height: 25px;
+    padding-left: 2px;
+    border-top: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 1px solid #565656;
+    border-left: 0px solid #transparent;
+    selection-background-color: #bcbcbc;
+    qproperty-alternatingRowColors: 0;
+    selection-color: #000;
+}
+
+/*
+    File Browser - Detailed/List View
+    Options Window
+        Hotkeys
+        Messages
+*/
+QTableView {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    color: #bcbcbc;
+    border: 1px solid #565656;
+    selection-background-color: #bcbcbc;
+    selection-color: #000;
+    qproperty-alternatingRowColors: 0;
+    gridline-color: transparent;
+}
+
+/*
+    ?
+*/
+QTableView::item {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    color: #bcbcbc;
+}
+
+/*
+    ?
+*/
+QTableView::item:hover {
+    color: #000;
+    background: #bcbcbc;    
+}
+
+/*
+    ?
+*/
+QTableView::item:selected:active {
+    background: #292929;    
+    color: #bcbcbc;
+}
+
+/*
+    ?
+*/
+QTableView::item:selected:!active {
+    background: #000;
+    color: #bcbcbc;
+}
+
+/*
+    Horizontal Seperator between channel and info panel
+*/
+QSplitter::handle:horizontal {
+    background: #292929;
+    border-right: transparent;
+}
+/*
+    Vertical Seperator between channel/info panel and chat panel
+*/
+QSplitter::handle:vertical {
+    background: #292929;
+    height: 1px;
+}
+
+/*
+    Tab bar
+    Tabs
+*/
+QTabWidget::tab-bar {
+     left: 5px; /* move to the right by 5px (left = right and right = left) */
+}
+
+/*
+    ?
+*/
+QTabBar {
+    color: #bcbcbc;
+}
+
+/*
+    ?
+*/
+QTabBar::tab {
+    background: #292929;
+    color: #bcbcbc;
+    min-width: 10px;
+    padding-top: 3px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    spacing: 3px;
+    border-top: 1px solid #6c6c6c;
+    border-bottom: 1px solid #6c6c6c;
+    border-right: 1px solid #6c6c6c;
+    border-left: 1px solid #6c6c6c;
+    border-radius: 3px;
+}
+
+/*
+    ?
+*/
+QTabBar::tab:hover {
+    color: #000;
+    background: #bcbcbc;
+}
+
+/*
+    ?
+*/
+QTabBar::tab:selected {
+    background: #121212;
+}
+
+/*
+    ?
+*/
+QTabBar::tab:selected:hover {
+    background: #bcbcbc;
+	color: #000;
+}
+
+/*
+    ?
+*/
+QTabBar::tab:!selected {
+    margin-left: -2; /* the first selected tab has nothing to overlap with on the left */
+}
+
+/*
+    ?
+*/
+QTabBar::tab:first:selected {
+    margin-left: 0; /* the first selected tab has nothing to overlap with on the left */
+}
+
+/*
+    ?
+*/
+QTabBar::tab:first:!selected {
+    margin-left: 0; /* the first not selected tab has nothing to overlap with on the left */
+}
+
+/*
+    ?
+*/
+QTabBar::tab:last:selected {
+    margin-right: 0; /* the last selected tab has nothing to overlap with on the right */
+}
+
+/*
+    ?
+*/
+QTabBar::tab:only-one {
+    margin: 0; /* if there is only one tab, we don't want overlapping margins */
+}
+
+/*
+    Status Bar (Where it says connected/disconnected/etc)
+*/
+QStatusBar {
+    background-color: #292929;
+    selection-background-color: #bcbcbc;
+    selection-color: #000;
+}
+
+/*
+    Backgrounds
+        Options panel selector
+        Identities panel selector
+        Drop down >BUTTONS< highlight colors
+*/
+QListView {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    color:#cbcbcb;
+    border: 1px solid #bcbcbc;
+    selection-background-color: #bcbcbc;
+    selection-color: #000;
+}
+
+/*
+    ?
+*/
+QListView::item {
+    border: 1px solid transparent;
+}
+
+/*
+    ?
+*/
+QListView::item:hover,
+QListView::item:selected:active,
+QListWidget#identitiesListWidget {
+    background: #292929;
+    color: #fff;
+}
+
+/*
+    ?
+*/
+QListView::item:selected:!active {
+    background: #333;
+    color: #fff;
+}
+
+/*
+    ?
+*/
+QListView#fileListView::item:hover,
+QListView#fileListView::item:selected {
+    background: transparent;
+}
+
+/*
+    Editors
+        Description
+        Welcome msgs
+        Logs
+*/
+QTextEdit#pluginDescTextEdit,
+QTextEdit#descriptionTextEdit,
+QTextEdit#vserverWelcomeTextEdit,
+QTextEdit#changeLogTextEdit {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    border: 1px solid #bcbcbc;
+    border-radius: 1px;
+    color: #bcbcbc;
+    selection-background-color: #bcbcbc;
+    selection-color: #000;
+}
+
+/*
+    ?
+*/
+QTextEdit#pluginDescTextEdit:disabled,
+QTextEdit#descriptionTextEdit:disabled,
+QTextEdit#vserverWelcomeTextEdit:disabled,
+QTextEdit#changeLogTextEdit:disabled {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    border: 1px solid #bcbcbc;
+    color: #999;
+    selection-background-color: #bcbcbc;
+    selection-color: #000;
+}
+
+/*
+    General Input Boxes
+*/
+QLineEdit {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    color: #bcbcbc;
+    border: 1px solid #bcbcbc;
+    border-radius: 1px;
+    selection-color: #000;
+    selection-background-color: #bcbcbc;
+}
+
+/*
+    following buttons when disabled
+        Input boxes
+        Drop down >BUTTONS<
+        Spin boxes
+        Check boxes
+        Radio buttons
+        No idea what TextEdit is for
+*/
+QLineEdit:disabled,
+QComboBox:disabled,
+QSpinBox:disabled,
+QCheckBox:disabled,
+QRadioButton:disabled,
+QTextEdit:disabled {
+    border: 1px solid #292929;
+    background: #292929;
+    color: #999;
+}
+
+/*
+    General Buttons
+*/
+QPushButton {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    border: 1px solid #bcbcbc;
+    color: #bcbcbc;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+/*
+    ?
+*/
+QPushButton:hover {
+    background: #bcbcbc;
+    color: #000;
+    border: 1px solid #000;
+}
+
+/*
+    ?
+*/
+QPushButton:pressed {
+    background: #bcbcbc;
+    color: #000;
+}
+
+/*
+    ?
+*/
+QPushButton:disabled {
+    background: #292929;
+    color: #999;
+    border: #292929;
+}
+
+/*
+    Menu Buttons (Top)
+*/
+QMenuBar {
+    background: #292929;
+    border: none;
+    border-bottom: 1px dotted #232323;
+    margin: 2px;
+    spacing: 3px;
+    color: #565656;
+    selection-background-color: #bcbcbc;
+    selection-color: #000;
+}
+
+/*
+    ?
+*/
+QMenuBar::item {
+    background: transparent;
+    color: #cbcbcb;
+}
+
+/*
+    ?
+*/
+QMenuBar::item:selected {
+    background: transparent;
+    color: #aaa;
+}
+
+/*
+    ?
+*/
+QMenuBar::item:pressed {
+    background: transparent;
+    color: #565656;
+    border-bottom: none;
+}
+
+/*
+    ?
+*/
+QMenuBar::item:hover{
+    color: #000;
+    background: #bcbcbc;
+}
+
+/*
+    Drop down menu
+    Right click menu
+*/
+QMenu {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    color: #cbcbcb;
+    border: 1px solid #000;
+}
+
+/*
+    ?
+*/
+QMenu::item:hover {
+    color: #000;
+    background: #bcbcbc;
+}
+
+/*
+    ?
+*/
+QMenu::item {
+    background: transparent;
+}
+
+/*
+    ?
+*/
+QMenu::item:selected {
+    background: #bcbcbc;
+    color: #000;
+}
+
+/*
+    ?
+*/
+QMenu::item:hover {
+    background: #bcbcbc;
+    color: #000;
+}
+
+/*
+    ?
+*/
+QMenu::item:disabled {
+    background: #000;
+    color: #444;
+}
+
+/*
+    ?
+*/
+QMenu::separator {
+    background: #000;
+    height: 0px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+/*
+    Options Panel Title/Labels
+*/
+QLabel#OptionsHeadlineDescriptionLabel,
+QLabel#OptionsHeadlineTitleLabel {
+    color: #bcbcbc;
+    font-weight: bold;
+}
+
+
+
+
+/*
+    ComboBox
+*/
+QComboBox {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    border: 1px solid #bcbcbc;
+    color: #cbcbcb;
+    padding: 1px;
+}
+
+/*
+    ?
+*/
+QComboBox:!editable:on,
+QComboBox::drop-down:editable:on {
+    background-image: url('styles/IceT/pagePattern.jpg');
+}
+
+/*
+    ?
+*/
+QComboBox:on {
+    background-image: url('styles/IceT/pagePattern.jpg');
+}
+
+/*
+    ?
+*/
+QComboBox QAbstractItemView {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    color: #bcbcbc;
+}
+
+/*
+    ?
+*/
+QComboBox#utcLocalComboBox {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+/*
+    Spin boxes
+*/
+QSpinBox {
+    /*background: #121212;*/
+    background-image: url('styles/IceT/pagePattern.jpg');
+    border: 1px solid #000;
+    border-radius: 1px;
+    color: #bcbcbc;
+    padding: 1px;
+    selection-background-color: #bcbcbc;
+    selection-color: #000;
+}
+
+/*
+    Checkboxes (Image ones obviously)
+*/
+QMenu::indicator:non-exclusive:checked {
+    /*background-image: url('styles/IceT/pagePattern.jpg');*/
+    width: 15px;
+    height: 13px;
+    image: url("styles/bluesky/menu_check.png");
+}
+
+/*
+    ?
+*/
+QMenu::indicator:non-exclusive{
+    background-image: url('styles/IceT/pagePattern.jpg');
+}
+
+/*
+    Toolbar
+        Set away status, mute mic, mute speakers/headset, etc buttons are on the toolbar
+*/
+QToolBar {
+    border: transparent;
+    background: #292929;
+    spacing: 3px;
+}
+
+/*
+    Toolbar buttons and icons
+*/
+QToolButton {
+    border: 1px solid transparent;
+    background: none;
+    color: #bcbcbc;
+}
+
+/*
+    ?
+*/
+QToolButton:pressed,
+QToolButton:hover {
+    color: #000;
+    background: #bcbcbc;
+}
+
+/*
+    ?
+*/
+QToolButton:checked,
+QToolButton#serverQueryAdvancedButton:checked {
+    border: 1px solid #000;
+    background: #000;
+}
+
+/*
+    ?
+*/
+QToolButton[popupMode="1"] {
+    border: 1px solid transparent;
+    padding-right: 15px;
+}
+
+/*
+     Toolbar popup buttons
+*/
+QToolButton[popupMode="1"]:hover {
+    color: #000;
+    background: #bcbcbc;
+}
+
+/*
+    ?
+*/
+QToolButton[popupMode="1"]:pressed,
+QToolButton[popupMode="1"]:checked {
+    background: #bcbcbc;
+    color: #000;
+    border: 1px solid #000;
+}
+
+/*
+    ?
+*/
+QToolButton[popupMode="1"]:pressed {
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: none;
+}
+
+/*
+    Toolbar popup button (little box inside the buttons to show that it's a popup button)
+*/
+QToolButton::menu-button {
+    border: 1px solid transparent;
+    width: 12px;
+}
+
+/*
+    Bookmark Manager Buttons
+*/
+QToolButton#newBookmarkButton,
+QToolButton#newBookmarkFolderButton,
+QToolButton#removeBookmarkButton {
+    color: #cbcbcb;
+    background: #292929;
+    border: 1px solid #000;
+}
+
+/*
+    ?
+*/
+QToolButton#newBookmarkButton:hover,
+QToolButton#newBookmarkFolderButton:hover,
+QToolButton#removeBookmarkButton:hover {
+    color: #000;
+    background: #bcbcbc;
+    border: 1px solid #000;
+}
+
+/*
+    BUTTONS
+        Server Query Panel
+        SQScript
+        Identities
+        Server Group
+        Bookmark Advanced
+*/
+QToolButton#serverQueryRunButton,
+QToolButton#serverQuerySingleStepsButton,
+QToolButton#serverQueryStopButton,
+QToolButton#serverQueryRestartButton,
+QToolButton#serverQueryAdvancedButton,
+QToolButton#serverQueryClearHighlightButton,
+QToolButton#newSQScriptButton,
+QToolButton#updateSQScriptButton,
+QToolButton#removeSQScriptButton,
+QToolButton#idAddButton,
+QToolButton#idRemoveButton,
+QToolButton#idSelectDefaultButton,
+QToolButton#idImportButton,
+QToolButton#idExportButton,
+QToolButton#addGroupButton,
+QToolButton#removeGroupButton,
+QToolButton#renameGroupButton,
+QToolButton#addClientButton,
+QToolButton#removeClientButton,
+QToolButton#makeCurrentChannelDefaultToolButton,
+QToolButton#improvedIdentityQualityButton {
+    background: #292929;
+    color: #bcbcbc;
+    border: 1px solid #bcbcbc;
+}
+
+/*
+    ?
+*/
+QToolButton#serverQueryRunButton:hover,
+QToolButton#serverQuerySingleStepsButton:hover,
+QToolButton#serverQueryStopButton:hover,
+QToolButton#serverQueryRestartButton:hover,
+QToolButton#serverQueryAdvancedButton:hover,
+QToolButton#serverQueryClearHighlightButton:hover,
+QToolButton#newSQScriptButton:hover,
+QToolButton#updateSQScriptButton:hover,
+QToolButton#removeSQScriptButton:hover,
+QToolButton#idAddButton:hover,
+QToolButton#idRemoveButton:hover,
+QToolButton#idSelectDefaultButton:hover,
+QToolButton#idImportButton:hover,
+QToolButton#idExportButton:hover,
+QToolButton#addGroupButton:hover,
+QToolButton#removeGroupButton:hover,
+QToolButton#renameGroupButton:hover,
+QToolButton#addClientButton:hover,
+QToolButton#removeClientButton:hover,
+QToolButton#makeCurrentChannelDefaultToolButton:hover,
+QToolButton#improvedIdentityQualityButton:hover {
+    background: #bcbcbc;
+    border: 1px solid #bcbcbc;
+    color: #000;
+}
+
+/*
+    ?
+*/
+QToolButton#serverQueryStopButton:disabled,
+QToolButton#serverQueryRestartButton:disabled {
+    border: 1px solid #000;
+    background: #292929;
+    color: #999;
+}
+
+/*
+    Search Buttons
+    App Scanner Buttons
+    File Browser Icons/Buttons
+    Ban Buttons
+    Emoticon Button
+*/
+QToolButton#TextFormatButton,
+QToolButton#searchClearButton,
+QToolButton#appScanImportButton,
+QToolButton#appScanReloadButton,
+QToolButton#fbDirUpButton,
+QToolButton#fbRootButton,
+QToolButton#fbRefreshButton,
+QToolButton#fbUploadButton,
+QToolButton#fbDownloadButton,
+QToolButton#fbCreateDirectoryButton,
+QToolButton#fbDeleteButton,
+QToolButton#fbFilterButton,
+QToolButton#descEditButton,
+QToolButton#fbViewIconsButton,
+QToolButton#fbViewListButton,
+QToolButton#filterGoButton,
+QToolButton#clientUpdateButton,
+QToolButton#filterClearButton,
+QToolButton#banAddButton,
+QToolButton#banRemoveButton,
+QToolButton#banEditButton,
+QToolButton#complainRemoveButton,
+QToolButton#foregroundColorSelectButton,
+QToolButton#backgroundColorSelectButton,
+QToolButton#EmoticonButton,
+QToolButton#iconToolButton {
+    background: transparent;
+    color: #bcbcbc;
+    border: 1px solid transparent;
+}
+
+/*
+    ?
+*/
+QToolButton#TextFormatButton:hover,
+QToolButton#searchClearButton:hover,
+QToolButton#appScanImportButton:hover,
+QToolButton#appScanReloadButton:hover,
+QToolButton#fbDirUpButton:hover,
+QToolButton#fbRootButton:hover,
+QToolButton#fbRefreshButton:hover,
+QToolButton#fbUploadButton:hover,
+QToolButton#fbDownloadButton:hover,
+QToolButton#fbCreateDirectoryButton:hover,
+QToolButton#fbDeleteButton:hover,
+QToolButton#fbFilterButton:hover,
+QToolButton#descEditButton:hover,
+QToolButton#fbViewIconsButton:hover,
+QToolButton#fbViewListButton:hover,
+QToolButton#filterGoButton:hover,
+QToolButton#clientUpdateButton:hover,
+QToolButton#filterClearButton:hover,
+QToolButton#banAddButton:hover,
+QToolButton#banRemoveButton:hover,
+QToolButton#banEditButton:hover,
+QToolButton#complainRemoveButton:hover,
+QToolButton#foregroundColorSelectButton:hover,
+QToolButton#backgroundColorSelectButton:hover,
+QToolButton#iconToolButton:hover {
+    background: #bcbcbc;
+    color: #000;
+    border: 1px solid transparent;
+}
+
+/*
+    Emoticon highlighter
+*/
+QToolButton#EmoticonButton:hover {
+    background-color: #f38a0e;
+}
+
+/*
+    File Browser Buttons
+*/
+QToolButton#TextFormatButton:checked,
+QToolButton#fbViewIconsButton:checked,
+QToolButton#fbViewListButton:checked {
+    background: #292929;
+    border: 1px solid #000;
+    color: #bcbcbc;
+}
+
+/*
+    No idea what these effect
+*/
+QToolButton#toolButtonBold,
+QToolButton#toolButtonItalic,
+QToolButton#toolButtonUnderLine,
+QToolButton#toolButtonFColor {
+    background-color: #000;
+    border: 5px solid #bcbcbc;
+}
+
+/*
+    ?
+*/
+QToolButton#toolButtonBold:hover,
+QToolButton#toolButtonItalic:hover,
+QToolButton#toolButtonUnderLine:hover,
+QToolButton#toolButtonFColor:hover {
+    background: #bcbcbc;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3px
+}
+
+/*
+    ?
+*/
+QToolButton#toolButtonBold:checked,
+QToolButton#toolButtonItalic:checked,
+QToolButton#toolButtonUnderLine:checked,
+QToolButton#toolButtonFColor:checked {
+    border: 1px solid #000;
+    border-radius: 3px;
+    background: #000;
+    color: #000;
+}
+
+/*
+    Scrollbar - Vertical
+*/
+QScrollBar:vertical {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    width: 15px;
+    margin: 17px 0 17px 0;
+    selection-background-color: #bcbcbc;
+}
+
+/*
+    ?
+*/
+QScrollBar::handle:vertical {
+    border: 1px solid #121212;
+    border-radius: 4px;
+    background: #121212;
+}
+
+/*
+    ?
+*/
+QScrollBar::add-line:vertical {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    height: 15px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+/*
+    ?
+*/
+QScrollBar::sub-line:vertical {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    height: 15px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+/*
+    ?
+*/
+QScrollBar::up-arrow:vertical {
+    background: url("gfx/IceT/7x5_up_arrow.png");
+    background-repeat: none;
+    left: 3px;
+    top: 5px;
+}
+
+/*
+    ?
+*/
+QScrollBar::down-arrow:vertical {
+    background: url("gfx/IceT/7x5_down_arrow.png");
+    background-repeat: none;
+    left: 3px;
+    top: 5px;
+}
+
+/*
+    ?
+*/
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+/*
+    Scrollbar - Horizontal
+*/
+QScrollBar:horizontal {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    height: 15px;
+    margin: 0px 17px 0 17px;
+}
+
+/*
+    ?
+*/
+QScrollBar::handle:horizontal {
+    border: 1px solid #121212;
+    border-radius: 4px;
+    background: #121212;
+}
+
+/*
+    ?
+*/
+QScrollBar::add-line:horizontal {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    width: 15px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+
+/*
+    ?
+*/
+QScrollBar::sub-line:horizontal {
+    background-image: url('styles/IceT/pagePattern.jpg');
+    width: 15px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+/*
+    ?
+*/
+QScrollBar::left-arrow:horizontal {
+    background: url("styles/bluesky/left_arrow.png"); /* TODO: Change Directory */
+    background-repeat: none;
+    left: 5px;
+    top: 3px;
+}
+
+/*
+    ?
+*/
+QScrollBar::right-arrow:horizontal {
+    background: url("styles/bluesky/right_arrow.png"); /* TODO: Change Directory */
+    background-repeat: none;
+    left: 5px;
+    top: 3px;
+}
+
+/*
+    ?
+*/
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+/*
+    Icon at the bottom right of TS3 window for sizing --Resize Icon
+*/
+QSizeGrip {
+    background-color: transparent;
+    image: url("styles/IceT/sizegrip.png");
+    width: 16px;
+    height: 16px;
+    selection-background-color: #bcbcbc;
+    selection-color: #000;
+}
+
+/*
+    Wizard
+*/
+QWizard QWidget,
+QWizard QLabel {
+    background: #000;
+    selection-background-color: #bcbcbc;
+    selection-color: #000;
+}
+
+/*
+    Not sure if this is even in TS3, but I'll color it anyways. --Yes it is. In the Upload and Download Dialog.
+*/
+QProgressBar {
+    border: 1px solid #bcbcbc;
+    text-align: center;
+}
+
+/*
+    ?
+*/
+QProgressBar::chunk {
+    background-color: #ffff30;
+    width: 20px;
+}
+
+
+/*
+    These change nothing!! --Duh. They do.
+*/
+
+
+/*
+    ?
+*/
+MainWindowServerTabsWidget,
+MainWindowChatWidget {
+    background: transparent;
+    selection-background-color: #bcbcbc;
+    selection-color: #000;
+}
+
+/*
+    ?
+*/
+QMenu::indicator {
+    background: #000;
+    width: 15px;
+    height: 13px;
+}
+
+/*
+    Leaving it just incase, but deleting it breaks nothing :/ --Its a handle, of course not -_-
+*/
+QSplitter::handle {
+    background: #000;
+}
