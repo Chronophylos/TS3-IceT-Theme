@@ -1,6 +1,6 @@
 #IceT Clan Theme
 
-##Version 1.6
+##Version 1.7
 
 Made By Sma$h
 
@@ -9,7 +9,11 @@ Managed by Chronophylos
 Copyright 2015-2016 IceT-Clan.de :copyright:
 
 ###Changelog:
-* Version 1.6
+* Version: 1.7
+ * changed iconpack to `default_colored_2014` by TeamSpeak Systems
+ * execpt player_on/off, commander_on/off and whisper icons
+ * turned scrollbar arrows to left and right
+* Version: 1.6
   * added channelinfo.tpl
   * added clientinfo.tpl
   * added serverinfo.tpl all from `default_extended` by [dante969](http://addons.teamspeak.com/directory/skins/stylesheets/Extended-Client-Info.html)
