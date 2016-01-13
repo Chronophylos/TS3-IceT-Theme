@@ -1,6 +1,6 @@
 #IceT Clan Theme
 
-##Version 1.7
+##Version 1.8
 ###Description
 A dark TS3 Theme with extended Client-, Server- and Channelinformation.
 This Theme is made for the IceT Clan but can be used by everyone.
