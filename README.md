@@ -7,6 +7,12 @@ Made By Sma$h and Chronophylos
 Copyright 2015-2016 IceT-Clan.de :copyright:
 
 ###Changelog:
+* Version: 1.8
+ * changes to textcolors made them brighter
+ * changed color of scrollbar to make it brighter
+ * added _extended.qss to change chat colors
+ * chnaged chat colors made them brighter
+ * changed commander_off icon to a dark purple but kept the style
 * Version: 1.7
  * changed iconpack to `default_colored_2014` by TeamSpeak Systems
  * except player_on/off, commander_on/off and whisper icons
