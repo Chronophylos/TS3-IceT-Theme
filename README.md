@@ -1,10 +1,40 @@
 #IceT Clan Theme
 
 ##Version 1.7
+###Description
+A dark TS3 Theme with extended Client-, Server- and Channelinformation.
+This Theme is made for the IceT Clan but can be used by everyone.
+
+We have planned to add some Clan related images but we'll have a second version without them.
 
 Made By Sma$h and Chronophylos
 
 Copyright 2015-2016 IceT-Clan.de :copyright:
+
+
+##Installation
+If you have TS3 installed, just run the `TS3-IceT-Theme.ts3_style`
+
+
+
+##Screenshots
+![Main Window](https://i.imgur.com/egtEt2j.png)
+
+Main Window
+
+![Dropdown Menu](https://i.imgur.com/LQkIbXY.png)
+
+Dropdown Menu
+
+![Poke Promt](https://i.imgur.com/Zn7ASHf.png)
+
+Poke Promt
+
+![QPromt](https://i.imgur.com/jqAvygT.png)
+
+Chat and Server Tabs when hovering, active and inactive
+
+
 
 ###Changelog:
 * Version: 1.8
@@ -28,25 +58,7 @@ Copyright 2015-2016 IceT-Clan.de :copyright:
 * Version: 1.1.3
   * Sorted the .qss for better Looks
 
-##Installation
-If you have TS3 installed, just run the `TS3-IceT-Theme.ts3_style`
 
-##Screenshots
-![Main Window](https://i.imgur.com/egtEt2j.png)
-
-Main Window
-
-![Dropdown Menu](https://i.imgur.com/LQkIbXY.png)
-
-Dropdown Menu
-
-![Poke Promt](https://i.imgur.com/Zn7ASHf.png)
-
-Poke Promt
-
-![QPromt](https://i.imgur.com/jqAvygT.png)
-
-Chat and Server Tabs when hovering, active and inactive
 
 ###Example for Sorting
 ```css
