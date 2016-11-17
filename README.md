@@ -7,9 +7,9 @@ This Theme is made for the IceT Clan but can be used by everyone.
 
 We have planned to add some Clan related images but we'll have a second version without them.
 
-Made By Sma$h and Chronophylos
+Made By Trup3s and Chronophylos
 
-Copyright 2015-2016 IceT-Clan.de :copyright:
+Copyright 2015-2016 IceT-Clan.de
 
 
 ##Installation
